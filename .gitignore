@@ -1,0 +1,32 @@
+# -----------------------------
+# DATA FILES (don't upload)
+# -----------------------------
+cleaned_data.csv
+aadhar_*.csv
+
+# optional: ignore all csv outputs too (uncomment if you want)
+# *.csv
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# Env files
+.env
+.env.*
+
+# Jupyter / logs
+.ipynb_checkpoints/
+*.log
+
+# OS clutter
+.DS_Store
+Thumbs.db

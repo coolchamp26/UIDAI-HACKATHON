@@ -1,2 +1,0 @@
-cleaned_data.csv
-aadhar_*.csv
