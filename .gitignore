@@ -1,32 +1,58 @@
-# -----------------------------
-# DATA FILES (don't upload)
-# -----------------------------
-cleaned_data.csv
-aadhar_*.csv
+# =========================
+# DATA FILES (BIG FILES)
+# =========================
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+*.zip
+*.tar
+*.gz
 
-# optional: ignore all csv outputs too (uncomment if you want)
-# *.csv
+# Ignore dataset folders if you use one
+data/
+datasets/
 
-# -----------------------------
-# Python
-# -----------------------------
+# =========================
+# PYTHON
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-
-# Virtual environment
+.Python
+env/
 venv/
 .venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
 
-# Env files
-.env
-.env.*
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints
 
-# Jupyter / logs
-.ipynb_checkpoints/
-*.log
-
-# OS clutter
+# =========================
+# OS FILES
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# GIT (never needed inside repo)
+# =========================
+.git
