@@ -1,14 +1,3 @@
----
-title: "Technical Assessment of Aadhaar Demographic Updates: Systemic Latency & Inequality Analysis"
-subtitle: "Submission for UIDAI Hackathon 2025 | Team Ashambar"
-author: "Lead Analyst: Team Ashambar"
-date: "January 19, 2026"
-geometry: "margin=1in"
-fontsize: 11pt
-mainfont: "Inter"
-monofont: "Roboto Mono"
-...
-
 # 1. Executive Problem Statement
 
 ## The "Currency" Challenge in Digital Identity
