@@ -48,7 +48,7 @@ The district-level volume distribution exhibits **positive skewness ($\gamma_1 =
 *   **Interpretation:** The distribution is "leptokurtic". The ecosystem is defined by its "fat tails"—extreme outliers that defy the average.
 *   **Operational Implication:** Planning for the "average" district (mean volume ~51k) is a fallacy. The **top 1% of districts** (only ~9 administrative units) handle **7.04%** of the entire national load. Operational resources must be disproportionately skewed to these tail-end districts.
 
-![Scatter plot identifying Z > 3 outlier districts](assets/anomaly_detection.png)
+![Scatter plot identifying Z > 3 outlier districts](visualizations/anomaly_detection.png)
 *Fig 1: Z-Score Anomaly Map. Note the extreme deviation of Thane and Pune ($Z > 6.0$).*
 
 ## 4.2 Structural Inequality (The Gini Factor)
@@ -56,7 +56,7 @@ With a Gini coefficient of **0.62**, the Aadhaar update landscape is more unequa
 *   **Top 10 Districts** alone generate **2.88 Million** updates.
 *   **Urban Migration Vector:** The correlation between `Unique Pincodes` (a proxy for urban spread) and `Updates` is **Moderate ($r = 0.47$)**, suggesting that while infrastructure drives capacity, the *demand* is driven by migration intensity in specific hubs (Thane, Pune, Surat).
 
-![Top 10 Districts by Volume](assets/top_districts.png)
+![Top 10 Districts by Volume](visualizations/top_districts.png)
 *Fig 2: The "Migration Corridors" of India. These 10 districts represent the highest velocity of demographic arbitrage.*
 
 ## 4.3 Demographic Disconnect
@@ -64,7 +64,7 @@ A correlation of **$r = 0.88$** exists between Youth (5-17) and Adult (17+) upda
 *   **Insight:** This high correlation suggests that "Family Unit" visits are common. When adults visit for corrections, they likely update their children's biometrics.
 *   **Policy Failure Signal:** Despite this, the **Youth Ratio** is only **9.9%** nationally. The mandatory biometric update protocol (at age 5 and 15) is effectively drowned out by the noise of adult semantic corrections. The system is failing to capture the biometric maturation of the population effectively.
 
-![Age Cohort Split](assets/age_group_comparison.png)
+![Age Cohort Split](visualizations/age_group_comparison.png)
 *Fig 3: The 90:10 imbalance. The system is fundamentally a "Correction Service", not a "Lifestyle Lifecycle" service.*
 
 ## 4.4 Temporal Shock Analysis
@@ -73,7 +73,7 @@ The monthly time-series reveals a system under siege from administrative deadlin
 *   **Cause Analysis:** This uncoordinated spike is characteristic of a "Scheme-Linkage Deadline" (likely PDS or Academic year KYC).
 *   **Latency Cost:** Such spikes degrade server response times (ASA/KSA latency) and increase physical dwell times at centres, potentially leading to a 3-4x increase in transaction rejection rates.
 
-![Time Series Volatility](assets/time_trend_analysis.png)
+![Time Series Volatility](visualizations/time_trend_analysis.png)
 *Fig 4: Temporal Volatility. The "Sawtooth" pattern indicates reactive rather than proactive administration.*
 
 ---
